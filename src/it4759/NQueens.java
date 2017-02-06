@@ -80,6 +80,7 @@ public class NQueens {
 	
 	private void solve(){
 		int l = 0;
+		this.init();
 		while (l < 10000){
 			int totalConflicts = this.conflict();
 			System.out.println(l + " : " + totalConflicts);
