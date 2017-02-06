@@ -1,5 +1,12 @@
 package it4759;
 
+import java.io.BufferedWriter;
+import java.io.File;
+import java.io.FileNotFoundException;
+import java.io.FileOutputStream;
+import java.io.IOException;
+import java.io.OutputStream;
+import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Random;
 
@@ -20,7 +27,7 @@ public class NQueens {
 		for(int i = 0; i < this.n; i++){
 			c += this.conflict(i);
 		}
-		return c;
+		return c / 2;
 	}
 	
 	private int conflict(int index){
@@ -45,7 +52,7 @@ public class NQueens {
 	
 	private void init(){
 		for(int i = 0; i < n; i++){
-			x[i] = r.nextInt();
+			x[i] = r.nextInt(this.n);
 		}
 	}
 	
@@ -99,10 +106,34 @@ public class NQueens {
 		}
 	}
 
-	public static void main(String[] args) {
+	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		NQueens nQueens = new NQueens(1000);
+		NQueens nQueens = new NQueens(100);
 		nQueens.solve();
+		File f = new File("NQueens.html");
+		FileOutputStream fos = new FileOutputStream(f);
+		OutputStreamWriter osw = new OutputStreamWriter(fos);
+		BufferedWriter bw = new BufferedWriter(osw);
+		bw.write("<style>table, tr, td{border: 1px solid black;} tr, td{height: 20px} td{width: 20px}</style>\n");
+		bw.write("<table style='border-collapse: collapse'>\n");
+		for(int i = 0; i < nQueens.n; i++){
+			bw.write("<tr>\n");
+			for(int j = 0; j < nQueens.n; j++){
+				if (nQueens.x[i] == j){
+					bw.write("<td bgcolor='red'></td>\n");
+				}
+				else {
+					bw.write("<td bgcolor='green'></td>\n");
+				}
+			}
+			bw.write("</tr>\n");
+		}
+		bw.write("</table>");
+		
+		bw.close();
+		osw.close();
+		fos.close();
+		
 	}
 
 }
