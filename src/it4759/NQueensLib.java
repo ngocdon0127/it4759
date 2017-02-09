@@ -89,8 +89,8 @@ public class NQueensLib {
 	}
 	
 	class Move{
-		int v;
-		int i;
+		public int v;
+		public int i;
 		public Move(int v, int i){
 			this.v = v;
 			this.i = i;
@@ -113,10 +113,12 @@ public class NQueensLib {
 			int minDelta = Integer.MAX_VALUE;
 			list.clear();
 			for(int i = 0; i < this.n; i++){
+//				minDelta = Integer.MAX_VALUE;
 				for(int j = 0; j < this.n; j++){
 					if (j != x[i].getValue()){
 						int delta = cs.getAssignDelta(x[i], j);
 						if (delta < minDelta){
+							System.out.println("setting delta from " + minDelta + " to " + delta);
 							minDelta = delta;
 							list.clear();
 							list.add(new Move(i, j));
@@ -127,7 +129,7 @@ public class NQueensLib {
 					}
 				}
 			}
-			
+			System.out.println(l + " : minDelta : " + minDelta);
 			if (minDelta >= 0){
 				this.init();
 				System.out.println("restart");
@@ -135,6 +137,7 @@ public class NQueensLib {
 			}
 			else {
 				Move m = list.get(r.nextInt(list.size()));
+				System.out.println(list.size() + " moving: " + m.i + " from " + x[m.i].getValue() + " => " + m.v);
 				x[m.i].setValuePropagate(m.v);
 			}
 			
@@ -144,6 +147,10 @@ public class NQueensLib {
 		
 	}
 
+	/**
+	 * @param args
+	 * @throws IOException
+	 */
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		NQueensLib nQueens = new NQueensLib(10);
