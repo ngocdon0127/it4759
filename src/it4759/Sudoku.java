@@ -24,6 +24,8 @@ public class Sudoku {
 	public final int n = 3;
 	
 	boolean row = true;
+	int tmp = 0;
+	int tmp1 = 0;
 	
 	public Sudoku(){
 		
@@ -101,63 +103,57 @@ public class Sudoku {
 	private void solve(){
 		this.init();
 		int l = 0;
-		while (l < 1000){
+		MinMaxSelector mms = new MinMaxSelector(cs);
+		while (l < 100000){
 			int violations = cs.violations();
-			System.out.println(l + " : " + violations);
+
 			if (violations == 0){
+				System.out.println("done");
 				break;
 			}
 			
-			int minDelta = Integer.MAX_VALUE;
-			ArrayList list = new ArrayList();
+			int mDelta = Integer.MAX_VALUE;
+
+			VarIntLS sel_x = mms.selectMostViolatingVariable();
 			
-			for(int i = 0; i < N * N - 1; i++){
-				for(int j = i + 1; j < N * N; j++){
-					int row_ = i / N;
-					int col_ = i % N;
-					int row = j / N;
-					int col = j % N;
-					
-					int delta = cs.getSwapDelta(x[row_][col_], x[row][col]);
-					if (delta < minDelta){
-						minDelta = delta;
-						list.clear();
-						list.add(new Position(row_, col_, row, col));
+			ArrayList l_ = new ArrayList();
+			
+			for(int i = 0; i < N; i++){
+				for(int j = 0; j < N; j++){
+					if (sel_x != x[i][j]){
+						int delta = cs.getSwapDelta(sel_x, x[i][j]);
+						if (delta < mDelta){
+							mDelta = delta;
+							l_.clear();
+							l_.add(new Point(i, j));
+						}
+						else if (delta == mDelta){
+//							l_.clear();
+							l_.add(new Point(i, j));
+//							l_.add(new Point(r.nextInt(N), r.nextInt(N)));
+						}
 					}
-					else if (delta == minDelta){
-						list.add(new Position(row_, col_, row, col));
-					}
-					
 				}
 			}
 			
-			if (minDelta < 0){
-				Position pos = (Position) list.get(r.nextInt(list.size()));
-				int v_ = x[pos.r_][pos.c_].getValue();
-				int v = x[pos.r][pos.c].getValue();
+			System.out.println(l + " : " + violations + " mDelta " + mDelta + " list size " + l_.size());
+			
+			if (mDelta < 0){
+				Point p = (Point) l_.get(r.nextInt(l_.size()));
 				
-				x[pos.r_][pos.c_].setValuePropagate(v);
-				x[pos.r][pos.c].setValuePropagate(v_);
+				int v = sel_x.getValue();
+				sel_x.setValuePropagate(x[p.r][p.c].getValue());
+				x[p.r][p.c].setValuePropagate(v);
 			}
 			else {
-//				this.init();
-//				for(int i = 0; i < N; i++){
-//					if (i % n == 0){
-//						System.out.println("");
-//					}
-//					for(int j = 0; j < N; j++){
-//						if (j % n == 0){
-//							System.out.print(" ");
-//						}
-//						System.out.print(x[i][j].getValue() + " ");
-//						
-//					}
-//					System.out.println("");
-//					
-//				}
-//				System.out.println(cs.violations());
-//				System.exit(1);
-				// random
+				tmp++;
+				
+//				Point p = (Point) l_.get(r.nextInt(l_.size()));
+//				
+//				int v = sel_x.getValue();
+//				sel_x.setValuePropagate(x[p.r][p.c].getValue());
+//				x[p.r][p.c].setValuePropagate(v);
+				
 				int row_ = r.nextInt(N);
 				int col_ = r.nextInt(N);
 				int row = r.nextInt(N);
@@ -166,95 +162,61 @@ public class Sudoku {
 				int v = x[row][col].getValue();
 				x[row_][col_].setValuePropagate(v);
 				x[row][col].setValuePropagate(v_);
-			}
-			
-//			MinMaxSelector mms = new MinMaxSelector(cs);
-//			VarIntLS pos = mms.selectMostViolatingVariable();
-//			
-//			int v_ = pos.getValue();
-//			int v = mms.selectMostPromissingValue(pos);
-//			if (v_ != v){
-////				System.out.println("change from " + pos.getValue() + " to " + v);
-////				pos.setValuePropagate(v);
-//				int id = pos.getID();
+				
+//				continue;
+//				int minDelta = Integer.MAX_VALUE;
+//				ArrayList list = new ArrayList();
 //				
-//				int rowIndex_ = map.get(new Integer(id)).intValue() / N;
-//				int colIndex_ = map.get(new Integer(id)).intValue() % N;
-//				if (row){
-//					int colIndex = -1;
-//					for(int j = 0; j < N; j++){
-//						if (x[rowIndex_][j].getValue() == v){
-//							colIndex = j;
-//							break;
+//				for(int i = 0; i < N * N - 1; i++){
+//					for(int j = i + 1; j < N * N; j++){
+//						int row_ = i / N;
+//						int col_ = i % N;
+//						int row = j / N;
+//						int col = j % N;
+//						
+//						int delta = cs.getSwapDelta(x[row_][col_], x[row][col]);
+//						if (delta < minDelta){
+//							minDelta = delta;
+//							list.clear();
+//							list.add(new Position(row_, col_, row, col));
 //						}
-//					}
-//					if (colIndex != -1){
-//						System.out.println("swap in row " + rowIndex_ + " " + colIndex_ + " and " + rowIndex_ + " " + colIndex);
-//						System.out.println("before " + x[rowIndex_][colIndex_].getValue() + " " + x[rowIndex_][colIndex].getValue());
-//						x[rowIndex_][colIndex_].setValuePropagate(v);
-//						x[rowIndex_][colIndex].setValuePropagate(v_);
-//						System.out.println("after " + x[rowIndex_][colIndex_].getValue() + " " + x[rowIndex_][colIndex].getValue());
+//						else if (delta == minDelta){
+//							list.add(new Position(row_, col_, row, col));
+//						}
 //						
 //					}
-//					else {
-//						System.out.println("wtf searching " + v + " in row " + rowIndex_);
-//						for(int i = 0; i < N; i++){
-//							for(int j = 0; j < N; j++){
-//								System.out.print(x[i][j].getValue() + " ");
-//							}
-//							System.out.println("");
-//						}
-//						row = !row;
-//					}
-//				}
-//				else {
-//					int rowIndex = -1;
-//					for(int i = 0; i < N; i++){
-//						if (x[i][colIndex_].getValue() == v){
-//							rowIndex = i;
-//							break;
-//						}
-//					}
-//					if (rowIndex != -1){
-//						System.out.println("swap in col " + rowIndex_ + " " + colIndex_ + " and " + rowIndex + " " + colIndex_);
-//						System.out.println("before " + x[rowIndex_][colIndex_].getValue() + " " + x[rowIndex][colIndex_].getValue());
-//						x[rowIndex_][colIndex_].setValuePropagate(v);
-//						x[rowIndex][colIndex_].setValuePropagate(v_);
-//						System.out.println("after " + x[rowIndex_][colIndex_].getValue() + " " + x[rowIndex][colIndex_].getValue());
-//					}
-//					else {
-//						System.out.println("wtf searching " + v + " in col " + colIndex_);
-//						for(int i = 0; i < N; i++){
-//							for(int j = 0; j < N; j++){
-//								System.out.print(x[i][j].getValue() + " ");
-//							}
-//							System.out.println("");
-//						}
-//						row = !row;
-//					}
 //				}
 //				
-//			}
-//			else {
-////				this.init();
-//				row = !row;
-//				System.out.println("skip");
-//				System.out.println("\n======================================\n======================================\n");
-//				for(int i = 0; i < N; i++){
-//					for(int j = 0; j < N; j++){
-//						System.out.print(x[i][j].getValue() + " ");
-//					}
-//					System.out.println("");
+//				if (minDelta < 0){
+//					tmp1++;
+//					Position pos = (Position) list.get(r.nextInt(list.size()));
+//					int v_ = x[pos.r_][pos.c_].getValue();
+//					int v = x[pos.r][pos.c].getValue();
+//					
+//					x[pos.r_][pos.c_].setValuePropagate(v);
+//					x[pos.r][pos.c].setValuePropagate(v_);
 //				}
-//				int row_ = r.nextInt(N);
-//				int col_ = r.nextInt(N);
-//				int row = r.nextInt(N);
-//				int col = r.nextInt(N);
-//				v_ = x[row_][col_].getValue();
-//				v = x[row][col].getValue();
-//				x[row_][col_].setValuePropagate(v);
-//				x[row][col].setValuePropagate(v_);
-//			}
+//				else {
+//					
+//					int row_ = r.nextInt(N);
+//					int col_ = r.nextInt(N);
+//					int row = r.nextInt(N);
+//					int col = r.nextInt(N);
+//					int v_ = x[row_][col_].getValue();
+//					int v = x[row][col].getValue();
+//					x[row_][col_].setValuePropagate(v);
+//					x[row][col].setValuePropagate(v_);
+//					
+//				}
+				
+				
+			}
+			
+			
+			
+			
+			
+			
 			
 			l++;
 			
@@ -275,11 +237,22 @@ public class Sudoku {
 		}
 		
 	}
+	
+	class Point{
+		int r;
+		int c;
+		
+		public Point(int r, int c){
+			this.r = r;
+			this.c = c;
+		}
+	}
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		Sudoku s = new Sudoku();
 		s.solve();
+		System.out.println("tmp: " + s.tmp + " tmp1: " + s.tmp1++);
 //		s.init();
 	}
 
