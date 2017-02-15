@@ -72,7 +72,7 @@ public class NQueensLib {
 	
 	
 	private void solve(){
-		this.init();
+//		this.init();
 		int l = 0;
 		while (l < 10000){
 			int totalConflicts = cs.violations();
@@ -97,18 +97,21 @@ public class NQueensLib {
 		}
 	}
 	
+	private void restart(){
+		for(int i = 0; i < n; i++){
+//			x[i] = new VarIntLS(mgr, 0, this.n - 1);
+			x[i].setValuePropagate(r.nextInt(this.n));
+		}
+	}
+	
 	private void hillClimbing(){
-		this.init();
+//		this.init();
 		
 		int l = 0;
-		ArrayList<Move> list = new ArrayList<Move>();
+		ArrayList list = new ArrayList();
 		
-		while (l < 10000){
-			int totalConflicts = cs.violations();
-			System.out.println(l + " : " + totalConflicts);
-			if (totalConflicts == 0){
-				break;
-			}
+		while ((l < 10000) && (cs.violations() > 0)){
+			System.out.println(l + " : " + cs.violations());
 			
 			int minDelta = Integer.MAX_VALUE;
 			list.clear();
@@ -118,7 +121,7 @@ public class NQueensLib {
 					if (j != x[i].getValue()){
 						int delta = cs.getAssignDelta(x[i], j);
 						if (delta < minDelta){
-							System.out.println("setting delta from " + minDelta + " to " + delta);
+//							System.out.println("setting delta from " + minDelta + " to " + delta);
 							minDelta = delta;
 							list.clear();
 							list.add(new Move(i, j));
@@ -129,16 +132,17 @@ public class NQueensLib {
 					}
 				}
 			}
-			System.out.println(l + " : minDelta : " + minDelta);
-			if (minDelta >= 0){
-				this.init();
-				System.out.println("restart");
+//			System.out.println(l + " : minDelta : " + minDelta);
+			if (minDelta < 0){
+				Move m = (Move) list.get(r.nextInt(list.size()));
+//				System.out.println(list.size() + " moving: " + m.i + " from " + x[m.i].getValue() + " => " + m.v);
+				x[m.i].setValuePropagate(m.v);
+				
 				
 			}
 			else {
-				Move m = list.get(r.nextInt(list.size()));
-				System.out.println(list.size() + " moving: " + m.i + " from " + x[m.i].getValue() + " => " + m.v);
-				x[m.i].setValuePropagate(m.v);
+				this.restart();
+				System.out.println("restart");
 			}
 			
 			l++;
@@ -154,8 +158,11 @@ public class NQueensLib {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		NQueensLib nQueens = new NQueensLib(10);
+		nQueens.init();
 //		nQueens.solve();
-		nQueens.hillClimbing();
+//		nQueens.hillClimbing();
+		HillClimbingSearch hcs = new HillClimbingSearch(nQueens.cs, 100000);
+		hcs.search();
 		File f = new File("NQueensLib.html");
 		FileOutputStream fos = new FileOutputStream(f);
 		OutputStreamWriter osw = new OutputStreamWriter(fos);
