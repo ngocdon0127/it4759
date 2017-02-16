@@ -163,6 +163,10 @@ public class Sudoku {
 		Sudoku s = new Sudoku();
 		s.init();
 		s.solve();
+//		HillClimbingSearch hcs = new HillClimbingSearch(s.cs, 100000);
+//		hcs.search();
+//		TabuSearch ts = new TabuSearch(s.cs, 100000, 20);
+//		ts.search();
 //		System.out.println("tmp: " + s.tmp + " tmp1: " + s.tmp1++);
 	}
 
