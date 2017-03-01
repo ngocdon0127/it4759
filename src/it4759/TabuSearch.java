@@ -6,7 +6,7 @@ import java.util.Random;
 import localsearch.model.IConstraint;
 import localsearch.model.VarIntLS;
 
-public class HillClimbingSearch {
+public class TabuSearch {
 
 	VarIntLS[] x;
 	IConstraint cs;
@@ -14,16 +14,33 @@ public class HillClimbingSearch {
 	int minViolations;
 	Random r;
 	int[] result;
+	int tabu[][];
+	int tabuLen;
 	
 	
 	
-	public HillClimbingSearch(IConstraint cs, int maxIter){
+	
+	public TabuSearch(IConstraint cs, int maxIter, int tabuLen){
 		this.cs = cs;
 		this.maxIter = maxIter;
+		this.tabuLen = tabuLen;
 		minViolations = Integer.MAX_VALUE;
 		r = new Random();
 		x = cs.getVariables();
 		result = new int[x.length];
+		
+		// initialize tabu table
+		int max = -1;
+		for(int i = 0; i < x.length; i++){
+			int max_ = x[i].getMaxValue();
+			max = (max < max_) ? max_ : max;
+		}
+		tabu = new int[x.length][max + 1];
+		for(int i = 0; i < x.length; i++){
+			for(int j = 0; j <= max; j++){
+				tabu[i][j] = 0;
+			}
+		}
 	}
 	
 	public void restart(){
@@ -39,10 +56,10 @@ public class HillClimbingSearch {
 		}
 	}
 	
-	class HCMove{
+	class TabuMove{
 		int i;
 		int v;
-		public HCMove(int i, int v){
+		public TabuMove(int i, int v){
 			this.i = i;
 			this.v = v;
 		}
@@ -52,9 +69,9 @@ public class HillClimbingSearch {
 		int l = 0;
 		ArrayList list = new ArrayList();
 		while ((l <= maxIter) && (cs.violations() > 0)){
-//			if (l % 10 == 0){
+			if (l % 1000 == 0){
 				System.out.println(l + " : " + cs.violations());
-//			}
+			}
 			int minDelta = Integer.MAX_VALUE;
 //			ArrayList list = new ArrayList();
 			list.clear();
@@ -63,16 +80,15 @@ public class HillClimbingSearch {
 				int max = x[i].getMaxValue();
 				int cur = x[i].getValue();
 				for(int v = min; v <= max; v++){
-					if (cur != v){
-//						System.out.println("x[" + i + "] = " + x[i].getValue() + " v = " + v);
+					if ((cur != v) && (tabu[i][v] <= l)){
 						int delta = cs.getAssignDelta(x[i], v);
 						if (delta < minDelta){
 							minDelta = delta;
 							list.clear();
-							list.add(new HCMove(i, v));
+							list.add(new TabuMove(i, v));
 						}
 						else if (delta == minDelta){
-							list.add(new HCMove(i, v));
+							list.add(new TabuMove(i, v));
 						}
 					}
 				}
@@ -80,8 +96,9 @@ public class HillClimbingSearch {
 				
 			}
 			if (minDelta < 0){
-				HCMove move = (HCMove) list.get(r.nextInt(list.size()));
+				TabuMove move = (TabuMove) list.get(r.nextInt(list.size()));
 				x[move.i].setValuePropagate(move.v);
+				tabu[move.i][move.v] += tabuLen;
 				updateResult();
 			}
 			else {
@@ -89,7 +106,7 @@ public class HillClimbingSearch {
 			}
 			l++;
 		}
-		System.out.println("best: " + minViolations + " l: " + l);
+		System.out.println("best: " + minViolations);
 		for(int i = 0; i < result.length; i++){
 			x[i].setValuePropagate(result[i]);
 		}

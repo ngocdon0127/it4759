@@ -28,20 +28,10 @@ public class Sudoku {
 	int tmp = 0;
 	int tmp1 = 0;
 	
-	public Sudoku(){
-		
-	}
-	
 	private void init(){
-		
 		r = new Random();
-		
-		
 		mgr = new LocalSearchManager();
-		
-		
 		cs = new ConstraintSystem(mgr);
-		
 		
 		x = new VarIntLS[N][N];
 		
