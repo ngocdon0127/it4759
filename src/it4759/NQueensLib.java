@@ -161,8 +161,10 @@ public class NQueensLib {
 		nQueens.init();
 //		nQueens.solve();
 //		nQueens.hillClimbing();
-		HillClimbingSearch hcs = new HillClimbingSearch(nQueens.cs, 100000);
-		hcs.search();
+//		HillClimbingSearch hcs = new HillClimbingSearch(nQueens.cs, 100000);
+//		hcs.search();
+		TabuSearch ts = new TabuSearch(nQueens.cs, 100000, 20);
+		ts.search();
 		File f = new File("NQueensLib.html");
 		FileOutputStream fos = new FileOutputStream(f);
 		OutputStreamWriter osw = new OutputStreamWriter(fos);

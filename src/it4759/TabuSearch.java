@@ -69,11 +69,9 @@ public class TabuSearch {
 		int l = 0;
 		ArrayList list = new ArrayList();
 		while ((l <= maxIter) && (cs.violations() > 0)){
-			if (l % 1000 == 0){
-				System.out.println(l + " : " + cs.violations());
-			}
+			System.out.println(l + " : " + cs.violations());
 			int minDelta = Integer.MAX_VALUE;
-//			ArrayList list = new ArrayList();
+			// ArrayList list = new ArrayList();
 			list.clear();
 			for(int i = 0; i < x.length; i++){
 				int min = x[i].getMinValue();
