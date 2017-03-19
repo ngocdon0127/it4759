@@ -1,2 +1,5 @@
 *.html
 *.class
+bacp.in*
+data/
+nohup.txt

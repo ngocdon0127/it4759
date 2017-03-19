@@ -1,0 +1,960 @@
+========= Periods 0: ==========
+boat 0: 31 
+boat 1: 30 34 
+boat 2: 26 
+boat 3: 
+boat 4: 
+boat 5: 13 
+boat 6: 
+boat 7: 15 33 
+boat 8: 27 
+boat 9: 21 
+boat 10: 18 
+boat 11: 
+boat 12: 
+boat 13: 3 
+boat 14: 14 
+boat 15: 17 
+boat 16: 4 
+boat 17: 7 
+boat 18: 20 
+boat 19: 22 
+boat 20: 6 36 
+boat 21: 37 
+boat 22: 12 35 
+boat 23: 11 28 
+boat 24: 
+boat 25: 
+boat 26: 
+boat 27: 5 16 
+boat 28: 19 
+boat 29: 10 
+boat 30: 23 
+boat 31: 8 
+boat 32: 9 25 
+boat 33: 0 
+boat 34: 24 
+boat 35: 29 
+boat 36: 1 
+boat 37: 2 
+boat 38: 32 38 
+========= Periods 1: ==========
+boat 0: 14 35 
+boat 1: 22 
+boat 2: 18 
+boat 3: 
+boat 4: 0 7 30 
+boat 5: 33 
+boat 6: 25 
+boat 7: 38 
+boat 8: 
+boat 9: 15 24 32 
+boat 10: 2 36 
+boat 11: 23 
+boat 12: 5 8 
+boat 13: 
+boat 14: 9 
+boat 15: 3 19 26 
+boat 16: 29 
+boat 17: 6 16 
+boat 18: 21 
+boat 19: 
+boat 20: 
+boat 21: 
+boat 22: 4 31 
+boat 23: 13 
+boat 24: 27 
+boat 25: 10 37 
+boat 26: 12 
+boat 27: 
+boat 28: 
+boat 29: 
+boat 30: 17 
+boat 31: 1 20 
+boat 32: 
+boat 33: 
+boat 34: 
+boat 35: 11 34 
+boat 36: 
+boat 37: 28 
+boat 38: 
+========= Periods 2: ==========
+boat 0: 30 
+boat 1: 29 
+boat 2: 5 
+boat 3: 
+boat 4: 35 
+boat 5: 31 
+boat 6: 13 34 
+boat 7: 12 
+boat 8: 9 36 
+boat 9: 
+boat 10: 6 17 
+boat 11: 
+boat 12: 28 
+boat 13: 21 
+boat 14: 
+boat 15: 8 
+boat 16: 1 14 
+boat 17: 26 
+boat 18: 32 
+boat 19: 4 18 
+boat 20: 
+boat 21: 33 
+boat 22: 37 
+boat 23: 3 22 
+boat 24: 
+boat 25: 20 25 
+boat 26: 15 
+boat 27: 38 
+boat 28: 2 7 
+boat 29: 
+boat 30: 16 
+boat 31: 0 10 19 
+boat 32: 11 
+boat 33: 
+boat 34: 27 
+boat 35: 24 
+boat 36: 23 
+boat 37: 
+boat 38: 
+========= Periods 3: ==========
+boat 0: 34 
+boat 1: 15 
+boat 2: 24 
+boat 3: 
+boat 4: 36 38 
+boat 5: 12 
+boat 6: 16 33 
+boat 7: 0 
+boat 8: 
+boat 9: 
+boat 10: 11 21 
+boat 11: 
+boat 12: 14 
+boat 13: 20 
+boat 14: 8 22 
+boat 15: 1 
+boat 16: 5 
+boat 17: 3 
+boat 18: 7 9 28 
+boat 19: 31 
+boat 20: 25 32 
+boat 21: 
+boat 22: 
+boat 23: 2 26 
+boat 24: 10 
+boat 25: 19 23 
+boat 26: 
+boat 27: 17 35 
+boat 28: 37 
+boat 29: 
+boat 30: 
+boat 31: 
+boat 32: 29 
+boat 33: 30 
+boat 34: 4 13 
+boat 35: 6 
+boat 36: 
+boat 37: 
+boat 38: 18 27 
+========= Periods 4: ==========
+boat 0: 0 29 
+boat 1: 
+boat 2: 35 
+boat 3: 19 
+boat 4: 27 
+boat 5: 26 
+boat 6: 3 5 28 30 
+boat 7: 6 
+boat 8: 
+boat 9: 12 36 
+boat 10: 8 
+boat 11: 11 
+boat 12: 18 33 
+boat 13: 10 
+boat 14: 31 32 
+boat 15: 22 34 
+boat 16: 
+boat 17: 15 
+boat 18: 
+boat 19: 2 16 
+boat 20: 1 4 
+boat 21: 24 
+boat 22: 25 
+boat 23: 7 
+boat 24: 20 
+boat 25: 
+boat 26: 38 
+boat 27: 9 
+boat 28: 23 
+boat 29: 
+boat 30: 21 
+boat 31: 
+boat 32: 37 
+boat 33: 13 
+boat 34: 
+boat 35: 14 
+boat 36: 
+boat 37: 
+boat 38: 17 
+========= Periods 5: ==========
+boat 0: 2 
+boat 1: 0 12 
+boat 2: 10 30 
+boat 3: 
+boat 4: 
+boat 5: 22 
+boat 6: 
+boat 7: 11 
+boat 8: 
+boat 9: 19 20 29 
+boat 10: 
+boat 11: 13 32 
+boat 12: 35 
+boat 13: 
+boat 14: 15 
+boat 15: 
+boat 16: 
+boat 17: 24 34 
+boat 18: 5 
+boat 19: 6 23 
+boat 20: 38 
+boat 21: 18 25 31 
+boat 22: 
+boat 23: 
+boat 24: 7 
+boat 25: 1 
+boat 26: 28 
+boat 27: 21 
+boat 28: 36 
+boat 29: 33 
+boat 30: 27 
+boat 31: 4 9 
+boat 32: 17 26 
+boat 33: 37 
+boat 34: 
+boat 35: 8 
+boat 36: 3 
+boat 37: 
+boat 38: 14 16 
+========= Periods 6: ==========
+boat 0: 6 
+boat 1: 
+boat 2: 11 32 37 
+boat 3: 
+boat 4: 23 
+boat 5: 5 20 
+boat 6: 8 
+boat 7: 
+boat 8: 33 
+boat 9: 7 
+boat 10: 
+boat 11: 
+boat 12: 22 25 
+boat 13: 34 
+boat 14: 28 
+boat 15: 
+boat 16: 38 
+boat 17: 
+boat 18: 10 
+boat 19: 15 
+boat 20: 26 
+boat 21: 3 
+boat 22: 
+boat 23: 29 
+boat 24: 21 
+boat 25: 9 
+boat 26: 18 
+boat 27: 4 
+boat 28: 16 31 
+boat 29: 2 19 
+boat 30: 
+boat 31: 13 24 35 
+boat 32: 36 
+boat 33: 14 17 
+boat 34: 
+boat 35: 1 30 
+boat 36: 27 
+boat 37: 12 
+boat 38: 0 
+========= Periods 7: ==========
+boat 0: 36 
+boat 1: 33 
+boat 2: 17 
+boat 3: 2 
+boat 4: 12 21 
+boat 5: 10 
+boat 6: 23 
+boat 7: 
+boat 8: 4 
+boat 9: 25 34 
+boat 10: 
+boat 11: 27 
+boat 12: 7 24 
+boat 13: 5 19 
+boat 14: 
+boat 15: 38 
+boat 16: 0 20 32 
+boat 17: 
+boat 18: 16 
+boat 19: 
+boat 20: 3 
+boat 21: 1 
+boat 22: 15 
+boat 23: 18 
+boat 24: 
+boat 25: 8 
+boat 26: 9 30 35 
+boat 27: 
+boat 28: 13 28 
+boat 29: 
+boat 30: 6 
+boat 31: 
+boat 32: 14 31 
+boat 33: 26 
+boat 34: 
+boat 35: 
+boat 36: 37 
+boat 37: 22 
+boat 38: 11 29 
+========= Periods 8: ==========
+boat 0: 1 16 28 
+boat 1: 
+boat 2: 0 
+boat 3: 7 20 37 
+boat 4: 9 18 
+boat 5: 
+boat 6: 2 6 
+boat 7: 
+boat 8: 3 38 
+boat 9: 
+boat 10: 23 
+boat 11: 4 
+boat 12: 32 
+boat 13: 
+boat 14: 11 
+boat 15: 10 14 24 
+boat 16: 
+boat 17: 25 27 
+boat 18: 29 
+boat 19: 17 
+boat 20: 21 
+boat 21: 
+boat 22: 13 
+boat 23: 35 
+boat 24: 8 36 
+boat 25: 26 
+boat 26: 5 
+boat 27: 19 
+boat 28: 
+boat 29: 12 31 
+boat 30: 
+boat 31: 
+boat 32: 30 
+boat 33: 
+boat 34: 34 
+boat 35: 22 33 
+boat 36: 
+boat 37: 15 
+boat 38: 
+========= Periods 9: ==========
+boat 0: 
+boat 1: 
+boat 2: 3 15 
+boat 3: 
+boat 4: 
+boat 5: 
+boat 6: 10 35 38 
+boat 7: 23 
+boat 8: 1 6 8 34 
+boat 9: 
+boat 10: 32 
+boat 11: 5 
+boat 12: 36 
+boat 13: 31 
+boat 14: 26 
+boat 15: 25 
+boat 16: 18 
+boat 17: 
+boat 18: 12 
+boat 19: 0 
+boat 20: 
+boat 21: 9 11 13 
+boat 22: 17 
+boat 23: 
+boat 24: 19 33 
+boat 25: 27 
+boat 26: 4 
+boat 27: 2 37 
+boat 28: 14 
+boat 29: 7 
+boat 30: 
+boat 31: 16 
+boat 32: 
+boat 33: 
+boat 34: 29 
+boat 35: 20 28 
+boat 36: 24 30 
+boat 37: 21 
+boat 38: 22 
+
+
+Constraint 1: Each guest must visit at least one boat for each day
+Passed!
+
+Constraint 2: No boat can host more people than its capacity
+========== Boat 0:
+	Period 0: 2/6
+	Period 1: 5/6
+	Period 2: 2/6
+	Period 3: 2/6
+	Period 4: 6/6
+	Period 5: 2/6
+	Period 6: 4/6
+	Period 7: 4/6
+	Period 8: 6/6
+	Period 9: 0/6
+Boat 0: Overload 0
+========== Boat 1:
+	Period 0: 4/8
+	Period 1: 4/8
+	Period 2: 4/8
+	Period 3: 6/8
+	Period 4: 0/8
+	Period 5: 6/8
+	Period 6: 0/8
+	Period 7: 2/8
+	Period 8: 0/8
+	Period 9: 0/8
+Boat 1: Overload 0
+========== Boat 2:
+	Period 0: 4/12
+	Period 1: 4/12
+	Period 2: 4/12
+	Period 3: 2/12
+	Period 4: 2/12
+	Period 5: 4/12
+	Period 6: 10/12
+	Period 7: 2/12
+	Period 8: 2/12
+	Period 9: 8/12
+Boat 2: Overload 0
+========== Boat 3:
+	Period 0: 0/12
+	Period 1: 0/12
+	Period 2: 0/12
+	Period 3: 0/12
+	Period 4: 2/12
+	Period 5: 0/12
+	Period 6: 0/12
+	Period 7: 2/12
+	Period 8: 10/12
+	Period 9: 0/12
+Boat 3: Overload 0
+========== Boat 4:
+	Period 0: 0/12
+	Period 1: 5/12
+	Period 2: 2/12
+	Period 3: 11/12
+	Period 4: 5/12
+	Period 5: 0/12
+	Period 6: 4/12
+	Period 7: 9/12
+	Period 8: 6/12
+	Period 9: 0/12
+Boat 4: Overload 0
+========== Boat 5:
+	Period 0: 2/12
+	Period 1: 2/12
+	Period 2: 2/12
+	Period 3: 4/12
+	Period 4: 4/12
+	Period 5: 4/12
+	Period 6: 8/12
+	Period 7: 2/12
+	Period 8: 0/12
+	Period 9: 0/12
+Boat 5: Overload 0
+========== Boat 6:
+	Period 0: 0/12
+	Period 1: 2/12
+	Period 2: 4/12
+	Period 3: 4/12
+	Period 4: 10/12
+	Period 5: 0/12
+	Period 6: 2/12
+	Period 7: 4/12
+	Period 8: 6/12
+	Period 9: 11/12
+Boat 6: Overload 0
+========== Boat 7:
+	Period 0: 8/10
+	Period 1: 7/10
+	Period 2: 4/10
+	Period 3: 2/10
+	Period 4: 4/10
+	Period 5: 3/10
+	Period 6: 0/10
+	Period 7: 0/10
+	Period 8: 0/10
+	Period 9: 4/10
+Boat 7: Overload 0
+========== Boat 8:
+	Period 0: 5/10
+	Period 1: 0/10
+	Period 2: 6/10
+	Period 3: 0/10
+	Period 4: 0/10
+	Period 5: 0/10
+	Period 6: 2/10
+	Period 7: 4/10
+	Period 8: 9/10
+	Period 9: 10/10
+Boat 8: Overload 0
+========== Boat 9:
+	Period 0: 5/10
+	Period 1: 10/10
+	Period 2: 0/10
+	Period 3: 0/10
+	Period 4: 8/10
+	Period 5: 10/10
+	Period 6: 1/10
+	Period 7: 4/10
+	Period 8: 0/10
+	Period 9: 0/10
+Boat 9: Overload 0
+========== Boat 10:
+	Period 0: 4/10
+	Period 1: 6/10
+	Period 2: 6/10
+	Period 3: 8/10
+	Period 4: 2/10
+	Period 5: 0/10
+	Period 6: 0/10
+	Period 7: 0/10
+	Period 8: 4/10
+	Period 9: 2/10
+Boat 10: Overload 0
+========== Boat 11:
+	Period 0: 0/10
+	Period 1: 4/10
+	Period 2: 0/10
+	Period 3: 0/10
+	Period 4: 3/10
+	Period 5: 4/10
+	Period 6: 0/10
+	Period 7: 5/10
+	Period 8: 4/10
+	Period 9: 4/10
+Boat 11: Overload 0
+========== Boat 12:
+	Period 0: 0/8
+	Period 1: 6/8
+	Period 2: 2/8
+	Period 3: 3/8
+	Period 4: 6/8
+	Period 5: 2/8
+	Period 6: 6/8
+	Period 7: 3/8
+	Period 8: 2/8
+	Period 9: 4/8
+Boat 12: Overload 0
+========== Boat 13:
+	Period 0: 2/8
+	Period 1: 0/8
+	Period 2: 5/8
+	Period 3: 4/8
+	Period 4: 2/8
+	Period 5: 0/8
+	Period 6: 2/8
+	Period 7: 6/8
+	Period 8: 0/8
+	Period 9: 2/8
+Boat 13: Overload 0
+========== Boat 14:
+	Period 0: 3/8
+	Period 1: 2/8
+	Period 2: 0/8
+	Period 3: 6/8
+	Period 4: 4/8
+	Period 5: 6/8
+	Period 6: 2/8
+	Period 7: 0/8
+	Period 8: 3/8
+	Period 9: 4/8
+Boat 14: Overload 0
+========== Boat 15:
+	Period 0: 2/12
+	Period 1: 8/12
+	Period 2: 2/12
+	Period 3: 2/12
+	Period 4: 6/12
+	Period 5: 0/12
+	Period 6: 0/12
+	Period 7: 7/12
+	Period 8: 7/12
+	Period 9: 2/12
+Boat 15: Overload 0
+========== Boat 16:
+	Period 0: 4/8
+	Period 1: 4/8
+	Period 2: 5/8
+	Period 3: 4/8
+	Period 4: 0/8
+	Period 5: 0/8
+	Period 6: 7/8
+	Period 7: 8/8
+	Period 8: 0/8
+	Period 9: 4/8
+Boat 16: Overload 0
+========== Boat 17:
+	Period 0: 1/8
+	Period 1: 6/8
+	Period 2: 4/8
+	Period 3: 2/8
+	Period 4: 6/8
+	Period 5: 4/8
+	Period 6: 0/8
+	Period 7: 0/8
+	Period 8: 7/8
+	Period 9: 0/8
+Boat 17: Overload 0
+========== Boat 18:
+	Period 0: 4/8
+	Period 1: 5/8
+	Period 2: 2/8
+	Period 3: 5/8
+	Period 4: 0/8
+	Period 5: 4/8
+	Period 6: 2/8
+	Period 7: 2/8
+	Period 8: 4/8
+	Period 9: 4/8
+Boat 18: Overload 0
+========== Boat 19:
+	Period 0: 4/8
+	Period 1: 0/8
+	Period 2: 8/8
+	Period 3: 2/8
+	Period 4: 4/8
+	Period 5: 8/8
+	Period 6: 6/8
+	Period 7: 0/8
+	Period 8: 2/8
+	Period 9: 2/8
+Boat 19: Overload 0
+========== Boat 20:
+	Period 0: 8/8
+	Period 1: 0/8
+	Period 2: 0/8
+	Period 3: 4/8
+	Period 4: 6/8
+	Period 5: 7/8
+	Period 6: 4/8
+	Period 7: 2/8
+	Period 8: 5/8
+	Period 9: 0/8
+Boat 20: Overload 0
+========== Boat 21:
+	Period 0: 5/8
+	Period 1: 0/8
+	Period 2: 2/8
+	Period 3: 0/8
+	Period 4: 2/8
+	Period 5: 8/8
+	Period 6: 2/8
+	Period 7: 2/8
+	Period 8: 0/8
+	Period 9: 7/8
+Boat 21: Overload 0
+========== Boat 22:
+	Period 0: 6/7
+	Period 1: 6/7
+	Period 2: 5/7
+	Period 3: 0/7
+	Period 4: 2/7
+	Period 5: 0/7
+	Period 6: 0/7
+	Period 7: 6/7
+	Period 8: 2/7
+	Period 9: 2/7
+Boat 22: Overload 0
+========== Boat 23:
+	Period 0: 5/7
+	Period 1: 2/7
+	Period 2: 6/7
+	Period 3: 6/7
+	Period 4: 1/7
+	Period 5: 0/7
+	Period 6: 4/7
+	Period 7: 4/7
+	Period 8: 2/7
+	Period 9: 0/7
+Boat 23: Overload 0
+========== Boat 24:
+	Period 0: 0/7
+	Period 1: 5/7
+	Period 2: 0/7
+	Period 3: 2/7
+	Period 4: 4/7
+	Period 5: 1/7
+	Period 6: 5/7
+	Period 7: 0/7
+	Period 8: 6/7
+	Period 9: 4/7
+Boat 24: Overload 0
+========== Boat 25:
+	Period 0: 0/7
+	Period 1: 7/7
+	Period 2: 6/7
+	Period 3: 6/7
+	Period 4: 0/7
+	Period 5: 2/7
+	Period 6: 2/7
+	Period 7: 2/7
+	Period 8: 4/7
+	Period 9: 5/7
+Boat 25: Overload 0
+========== Boat 26:
+	Period 0: 0/7
+	Period 1: 4/7
+	Period 2: 6/7
+	Period 3: 0/7
+	Period 4: 7/7
+	Period 5: 2/7
+	Period 6: 4/7
+	Period 7: 6/7
+	Period 8: 4/7
+	Period 9: 4/7
+Boat 26: Overload 0
+========== Boat 27:
+	Period 0: 6/7
+	Period 1: 0/7
+	Period 2: 7/7
+	Period 3: 4/7
+	Period 4: 2/7
+	Period 5: 5/7
+	Period 6: 4/7
+	Period 7: 0/7
+	Period 8: 2/7
+	Period 9: 7/7
+Boat 27: Overload 0
+========== Boat 28:
+	Period 0: 2/6
+	Period 1: 0/6
+	Period 2: 3/6
+	Period 3: 5/6
+	Period 4: 4/6
+	Period 5: 4/6
+	Period 6: 4/6
+	Period 7: 4/6
+	Period 8: 0/6
+	Period 9: 3/6
+Boat 28: Overload 0
+========== Boat 29:
+	Period 0: 2/6
+	Period 1: 0/6
+	Period 2: 0/6
+	Period 3: 0/6
+	Period 4: 0/6
+	Period 5: 2/6
+	Period 6: 4/6
+	Period 7: 0/6
+	Period 8: 6/6
+	Period 9: 1/6
+Boat 29: Overload 0
+========== Boat 30:
+	Period 0: 4/6
+	Period 1: 2/6
+	Period 2: 2/6
+	Period 3: 0/6
+	Period 4: 5/6
+	Period 5: 5/6
+	Period 6: 0/6
+	Period 7: 4/6
+	Period 8: 0/6
+	Period 9: 0/6
+Boat 30: Overload 0
+========== Boat 31:
+	Period 0: 2/6
+	Period 1: 6/6
+	Period 2: 6/6
+	Period 3: 0/6
+	Period 4: 0/6
+	Period 5: 6/6
+	Period 6: 6/6
+	Period 7: 0/6
+	Period 8: 0/6
+	Period 9: 2/6
+Boat 31: Overload 0
+========== Boat 32:
+	Period 0: 4/6
+	Period 1: 0/6
+	Period 2: 3/6
+	Period 3: 4/6
+	Period 4: 5/6
+	Period 5: 6/6
+	Period 6: 4/6
+	Period 7: 5/6
+	Period 8: 2/6
+	Period 9: 0/6
+Boat 32: Overload 0
+========== Boat 33:
+	Period 0: 2/6
+	Period 1: 0/6
+	Period 2: 0/6
+	Period 3: 2/6
+	Period 4: 2/6
+	Period 5: 5/6
+	Period 6: 5/6
+	Period 7: 4/6
+	Period 8: 0/6
+	Period 9: 0/6
+Boat 33: Overload 0
+========== Boat 34:
+	Period 0: 2/6
+	Period 1: 0/6
+	Period 2: 5/6
+	Period 3: 6/6
+	Period 4: 0/6
+	Period 5: 0/6
+	Period 6: 0/6
+	Period 7: 0/6
+	Period 8: 2/6
+	Period 9: 4/6
+Boat 34: Overload 0
+========== Boat 35:
+	Period 0: 4/6
+	Period 1: 5/6
+	Period 2: 2/6
+	Period 3: 4/6
+	Period 4: 3/6
+	Period 5: 2/6
+	Period 6: 4/6
+	Period 7: 0/6
+	Period 8: 6/6
+	Period 9: 6/6
+Boat 35: Overload 0
+========== Boat 36:
+	Period 0: 2/6
+	Period 1: 0/6
+	Period 2: 4/6
+	Period 3: 0/6
+	Period 4: 0/6
+	Period 5: 2/6
+	Period 6: 5/6
+	Period 7: 5/6
+	Period 8: 0/6
+	Period 9: 4/6
+Boat 36: Overload 0
+========== Boat 37:
+	Period 0: 2/6
+	Period 1: 2/6
+	Period 2: 0/6
+	Period 3: 0/6
+	Period 4: 0/6
+	Period 5: 0/6
+	Period 6: 4/6
+	Period 7: 4/6
+	Period 8: 6/6
+	Period 9: 5/6
+Boat 37: Overload 0
+========== Boat 38:
+	Period 0: 9/9
+	Period 1: 0/9
+	Period 2: 0/9
+	Period 3: 9/9
+	Period 4: 2/9
+	Period 5: 5/9
+	Period 6: 2/9
+	Period 7: 7/9
+	Period 8: 0/9
+	Period 9: 4/9
+Boat 38: Overload 0
+Passed!
+
+Constraint 3: Each guest visit a boat at most once
+1 1 1 0 1 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 1 
+1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 1 0 0 
+1 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 1 1 0 0 0 0 0 0 0 1 0 
+0 0 1 0 0 0 1 0 1 0 0 0 0 1 0 1 0 1 0 0 1 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 
+0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 1 0 1 0 0 0 1 1 0 0 0 1 0 0 1 0 0 0 0 
+0 0 1 0 0 1 1 0 0 0 0 1 1 1 0 0 1 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 1 1 1 0 1 0 0 0 0 0 0 1 0 1 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 
+0 0 0 1 1 0 0 0 0 1 0 0 1 0 0 0 0 1 1 0 0 0 0 1 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 1 0 1 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1 1 1 0 0 0 1 1 0 0 0 0 0 0 
+0 0 1 0 0 1 1 0 0 0 0 0 0 1 0 1 0 0 1 0 0 0 0 0 1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 
+0 0 1 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 
+0 1 0 0 1 1 0 1 0 1 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 0 0 1 0 
+0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 1 0 0 1 0 1 1 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 1 0 0 1 
+0 1 1 0 0 0 0 1 0 1 0 0 0 0 1 0 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 1 1 0 0 0 0 0 0 0 1 1 0 1 1 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 1 0 0 1 0 1 1 0 0 0 0 1 
+0 0 1 0 1 0 0 0 0 0 1 0 1 0 0 0 1 0 0 1 0 1 0 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 0 1 0 0 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 1 0 0 0 1 0 0 0 1 0 0 1 0 1 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 1 1 0 0 1 0 0 0 0 1 0 1 0 0 0 1 0 0 1 0 0 1 0 0 0 0 0 0 1 0 
+0 1 0 0 0 1 0 0 0 0 0 0 1 0 1 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 1 
+0 0 0 0 1 0 1 1 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 1 0 0 
+0 0 1 0 0 0 0 0 0 1 0 0 1 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 1 1 0 0 
+0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0 0 1 1 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 1 0 0 0 0 0 0 0 0 1 1 0 1 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 0 0 1 0 0 0 1 0 1 0 1 
+1 0 0 0 0 0 1 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 0 1 0 
+1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 1 0 0 1 
+1 1 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 1 1 0 0 
+1 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 1 0 1 1 0 0 0 0 0 1 1 0 0 1 0 0 0 0 0 0 
+0 0 1 0 0 0 0 0 0 1 1 1 1 0 1 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 1 0 0 0 1 1 1 1 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 
+1 1 0 0 0 0 1 0 1 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 
+1 0 1 0 1 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 0 1 1 0 0 0 1 0 0 0 0 0 0 0 
+1 0 0 0 1 0 0 0 1 1 1 0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 1 0 0 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 1 0 1 1 0 0 0 1 1 0 0 1 0 0 
+0 0 0 0 1 0 1 1 1 0 0 0 0 0 0 1 1 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 1 
+Passed!
+
+Constraint 4: No two guests meet each other more than once
+0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 1 0 1 0 0 0 0 0 0 
+0 0 0 0 1 0 1 0 1 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 0 0 0 
+0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 1 0 
+0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 1 0 0 0 1 0 1 0 1 0 0 0 0 0 0 0 1 
+0 1 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 
+0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 
+1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 1 0 0 0 0 0 0 1 0 
+0 1 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 
+0 0 0 0 1 0 0 1 0 0 0 1 0 1 0 0 0 0 1 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 1 1 0 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 1 0 1 1 
+0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 1 0 0 1 0 1 0 0 1 0 
+1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 1 1 0 0 
+0 0 0 0 1 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 1 0 1 1 0 0 0 
+0 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 1 0 0 0 
+0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 
+0 1 1 0 0 1 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 1 0 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 0 0 
+0 0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 1 0 1 0 0 0 0 0 
+1 0 1 1 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 0 0 0 
+1 1 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 1 1 0 0 1 0 0 0 0 1 0 
+0 0 0 0 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 
+0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 1 0 0 1 0 0 1 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 1 0 0 0 
+0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 1 0 0 0 1 1 0 1 0 0 0 0 
+0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 1 0 1 0 1 0 1 0 1 0 1 0 0 1 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+1 1 0 1 0 1 0 1 0 1 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 0 0 0 0 1 1 0 0 0 
+0 0 0 0 1 0 0 0 0 0 0 0 1 0 1 0 1 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 
+1 0 0 0 0 0 0 0 0 0 0 1 0 1 0 1 0 0 0 0 1 0 0 0 1 1 0 0 0 0 0 1 0 0 0 0 0 1 1 
+0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+0 1 0 0 0 0 1 0 1 0 0 1 0 1 0 0 0 0 0 0 0 0 1 0 1 1 0 0 0 0 1 0 0 0 0 0 0 0 0 
+0 0 0 0 0 0 0 0 0 1 1 0 1 1 1 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 1 0 1 1 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 
+0 0 1 0 0 0 0 1 0 0 1 1 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 
+0 0 0 1 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 1 0 0 
+Passed!
+

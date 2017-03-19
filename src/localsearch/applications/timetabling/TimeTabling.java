@@ -355,7 +355,7 @@ public class TimeTabling {
 			bw.write("</tr>");
 			// in ra tiet hoc cac lop
 			for (int i = 0; i < cl.size(); i++) {
-				// System.out.println("Lớp : " + cl.get(i));
+				// System.out.println("Lá»›p : " + cl.get(i));
 				bw.write("<tr><td colspan=2 BGCOLOR=\"gray\">" + cl.get(i)
 						+ "</td>");
 				int last = 0;
@@ -426,14 +426,14 @@ public class TimeTabling {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		
-		TimeTabling TT = new TimeTabling();
-		TT.readData("data\\SIETimeTabling\\timetabling-data-30-30.xml");
-		TT.stateModel();
-		TT.search();
-		TT.printSolutionHTML("TimeTabling.html");
+//		TimeTabling TT = new TimeTabling();
+//		TT.readData("data\\SIETimeTabling\\timetabling-data-30-30-new.xml");
+//		TT.stateModel();
+//		TT.search();
+//		TT.printSolutionHTML("TimeTabling.html");
 		
-		//TimeTabling TT = new TimeTabling();
-		//TT.testBatch("data\\SIETimeTabling\\timetabling-data-46-46.xml",10);
+		TimeTabling TT = new TimeTabling();
+		TT.testBatch("data\\SIETimeTabling\\timetabling-data-30-30-new.xml",100);
 
 	}
 

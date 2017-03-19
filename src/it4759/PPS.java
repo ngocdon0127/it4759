@@ -38,13 +38,8 @@ public class PPS {
 	int nBoats; 
 	int nPeriods;
 	int nGuests;
-	int s[];
-	int c[];
-	
-	VarIntLS tmp_;
-	VarIntLS tmp1_;
-	IFunction zero;
-	IFunction one;
+	int s[]; // Size of Guests
+	int c[]; // Capacity
 	
 	LocalSearchManager mgr;
 	
@@ -63,11 +58,11 @@ public class PPS {
 		this.nGuests = Integer.parseInt(data[0]);
 		this.nBoats = Integer.parseInt(data[1]);
 		this.nPeriods = Integer.parseInt(data[2]);
-		System.out.println(nGuests + " " + nBoats + " " + nPeriods);
+//		System.out.println(nGuests + " " + nBoats + " " + nPeriods);
 		
 		
 		
-		buf = br.readLine(); // skip
+		buf = br.readLine(); // skip some labels
 		
 		c = new int[nBoats];
 		for(int i = 0; i < nBoats; i++){
@@ -77,7 +72,7 @@ public class PPS {
 //			System.out.println(i + " : " + c[i]);
 		}
 		
-		buf = br.readLine(); // skip
+		buf = br.readLine(); // skip some labels
 		
 		s = new int[nGuests];
 		for(int i = 0; i < nGuests; i++){
@@ -127,11 +122,14 @@ public class PPS {
 				int[] w = new int[nPeriods];
 				for(int k = 0; k < nPeriods; k++){
 					w[k] = 1;
+					
+//					f[k] = new FuncMinus(x[k][i], x[k][j]); // f[k] with negative value will cause the program crash. Don't know why
 					VarIntLS[] y_ = new VarIntLS[2];
 					y_[0] = x[k][i];
 					y_[1] = x[k][j];
 					IFunction min_ = new Min(y_);
 					IFunction max_ = new Max(y_);
+					
 					f[k] = new FuncMinus(max_, min_);
 				}
 				IFunction f_ = new ConditionalSumTmp(f, w, 0);

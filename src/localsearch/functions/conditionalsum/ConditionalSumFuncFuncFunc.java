@@ -29,6 +29,9 @@ public class ConditionalSumFuncFuncFunc extends AbstractInvariant implements IFu
 	public static int hash = 997;
 
 	public static int HashFun(int value) {
+		if (value % hash < 0){
+			System.out.println("value = " + value + " hashfun " + value % hash);
+		}
 		return value % hash;
 	}
 
@@ -460,6 +463,7 @@ public class ConditionalSumFuncFuncFunc extends AbstractInvariant implements IFu
 			int value1 = _a[i];
 			int index = i;
 			int hashValue = HashFun(value1);
+//			System.out.println("hashValue: " + hashValue + " index " + index + " value1 = " + value1);
 			_h[hashValue].add(new Integer(index));
 		}
 
